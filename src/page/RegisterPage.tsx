@@ -4,7 +4,7 @@ import CoinImage from '../assets/slider/sliderItem1.png'
 export default function RegisterPage() {
 	const navigate = useNavigate()
 	return (
-		<div className='w-full max-w-sm m-auto min-h-screen flex flex-col justify-between items-center bg-gradient-to-tr from-[#8D67E4] to-[#683BCE] text-center px-6 py-10'>
+		<div className='w-full max-w-md m-auto min-h-screen flex flex-col justify-between items-center bg-gradient-to-tr from-[#8D67E4] to-[#683BCE] text-center px-6 py-10'>
 			<div>
 				<img src={CoinImage} alt='Educoin' className='w-52 h-52 mb-6 m-auto' />
 
