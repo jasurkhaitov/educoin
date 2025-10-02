@@ -41,7 +41,7 @@ export default function Onboarding() {
 	}
 
 	return (
-		<div className="w-full max-w-sm m-auto min-h-screen flex flex-col justify-between items-center bg-[url('./assets/bg-coin.webp')] bg-bottom p-4 bg-no-repeat text-[#0E0D0D] bg-white">
+		<div className="w-full max-w-sm m-auto min-h-screen border-x-0 xs:border-x flex flex-col justify-between items-center bg-[url('./assets/bg-coin.webp')] bg-bottom p-4 bg-no-repeat text-[#0E0D0D] bg-white">
 			<div className='flex-1 flex flex-col justify-start pt-5 items-center'>
 				<AnimatePresence mode='wait'>
 					<motion.div

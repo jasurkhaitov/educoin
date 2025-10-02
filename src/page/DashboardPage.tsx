@@ -15,7 +15,7 @@ import Target from '../assets/icon/icon.svg'
 
 export default function DashboardPage() {
 	return (
-		<div className='w-full relative max-w-sm m-auto min-h-screen bg-white px-6 py-5 pb-30 flex flex-col'>
+		<div className='w-full border-x-0 xs:border-x relative max-w-sm m-auto min-h-screen bg-white px-6 py-5 pb-30 flex flex-col'>
 			<div className='flex items-center justify-between mb-7'>
 				<div className='flex items-center gap-2.5'>
 					<img src={User} alt='User Avatar' className='w-12 h-12 rounded-xl' />

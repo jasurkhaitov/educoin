@@ -3,7 +3,7 @@ import WebApp from '@twa-dev/sdk'
 import { Route, Routes } from 'react-router-dom'
 import BrowsePage from './page/BrowsePage'
 import AuthFlowPage from './page/AuthFlowPage'
-import RegisterPage from './page/Registerpage'
+import RegisterPage from './page/RegisterPage'
 import DashboardPage from './page/DashboardPage'
 
 function App() {
